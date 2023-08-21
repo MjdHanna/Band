@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 350px;
+}
+nav{
+    background-color:rgb(37, 35, 35);
+    height: 50px;
+}
+ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+a{
+    text-decoration: navajowhite;
+    color: white;
+}
+#AboutUs{
+    
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#Services{
+    background-color: darksalmon;
+    flex-direction: column;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.S{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 10px;
+}
+#Specialization{
+    background-color: white;
+    flex-direction: column;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.Sp{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 30px;
+
+}
+#Teachers{
+    background-color: darksalmon;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.T{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.TT{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:30px;
+    width: 278.4px;  
+    
+
+}
+p{
+    color: rgb(44, 42, 42); 
+    
+}
+#Plans{
+    background-color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.P{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 14px;
+
+}
+.PP{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+    
+    border: 1px solid gray;
+    background-color: darkorange;  
+}
+ul.u{
+    display: flex;
+    flex-direction: column;
+    list-style:circle;
+}
+.PDA{
+    background-color: wheat;
+    border: 1px solid black;
+}
+#Contact{
+    height:400px;
+    background-color: salmon;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+footer{
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
